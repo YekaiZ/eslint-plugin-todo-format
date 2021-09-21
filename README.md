@@ -57,7 +57,7 @@ Next create a `.eslintrc.json` in your root directory, configure the plugin with
 {
     "plugins": ["todo-format"]
     "rules": {
-        "todo-format": [
+        "todo-format/enforce": [
             "warn",
             {
                 "taskPrefix": "Hello"
