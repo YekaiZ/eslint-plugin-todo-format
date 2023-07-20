@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-todo-format",
-  "version": "1.0.4",
+  "version": "1.0.8",
   "description": "Enforce eslint rule on todo commments",
   "main": "index.js",
   "dependencies": {

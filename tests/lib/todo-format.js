@@ -1,4 +1,4 @@
-const rules = require("../../index.js");
+const rules = require("../../rule");
 const RuleTester = require("eslint").RuleTester;
 
 const ruleTester = new RuleTester();
@@ -54,7 +54,7 @@ const errorConditions = [
   },
 ];
 
-ruleTester.run("todo-format/enforce", rules, {
+ruleTester.run("todo-format", rules, {
   valid: [
     {
       code: "// TODO: [FP-1234] This is a test",
