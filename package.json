@@ -4,13 +4,13 @@
   "description": "enforce eslint rule on todo commments",
   "main": "index.js",
   "dependencies": {
-    "eslint": "~6.8.0"
+    "eslint": "~8.45.0"
   },
   "scripts": {
     "test": "jest test --watchAll --testMatch **/tests/lib/*.js"
   },
   "devDependencies": {
-    "jest": "~27.1.0"
+    "jest": "~29.6.1"
   },
   "repository": "YekaiZ/eslint-plugin-todo-format"
 }

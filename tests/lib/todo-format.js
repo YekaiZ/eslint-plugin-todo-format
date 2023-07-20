@@ -54,7 +54,7 @@ const errorConditions = [
   },
 ];
 
-ruleTester.run("todo-format/enforce", rules.rules.enforce, {
+ruleTester.run("todo-format/enforce", rules, {
   valid: [
     {
       code: "// TODO: [FP-1234] This is a test",
